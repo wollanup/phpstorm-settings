@@ -1,0 +1,9 @@
+<application>
+  <component name="DockerRegistry">
+    <DockerRegistry email="steve@eukles.com">
+      <option name="address" value="https://git.eukles.com:7344" />
+      <option name="name" value="Docker Registry" />
+      <option name="username" value="wollanup" />
+    </DockerRegistry>
+  </component>
+</application>

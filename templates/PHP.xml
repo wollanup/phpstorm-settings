@@ -1,0 +1,33 @@
+<templateSet group="PHP">
+  <template name="_dump" value="\Core\Util\Debug::dump($VAR$);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="_log" value="\Core\Util\Debug::log($VAR$);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fore" value="foreach ($ITERABLE$ as $VAR_VALUE$) {&#10;    $END$&#10;}" description="foreach(iterable_expr as $value) {...}" toReformat="true" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="phpSuggestVariableName()" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="forek" value="foreach ($ITERABLE$ as $VAR_KEY$ =&gt; $VAR_VALUE$) {&#10;    $END$&#10;}" description="foreach(iterable_expr as $key =&gt; $value) {...}" toReformat="true" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_KEY" expression="phpSuggestVariableName()" defaultValue="&quot;$index&quot;" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="phpSuggestVariableName()" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+</templateSet>

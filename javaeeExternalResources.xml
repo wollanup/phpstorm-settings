@@ -1,0 +1,8 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://pmd.sf.net/ruleset/1.0.0" location="$USER_HOME$/.PhpStorm2016.1/system/extResources/8a117d51_ruleset_xml_schema.xsd" />
+    <resource url="http://pmd.sf.net/ruleset_xml_schema.xsd" location="$USER_HOME$/.PhpStorm2016.1/system/extResources/8a117d51_ruleset_xml_schema.xsd" />
+    <resource url="http://xml.phpdox.net/config" location="$USER_HOME$/.PhpStorm2016.1/system/extResources/ae7505c4_config.xml" />
+    <resource url="https://schema.phpunit.de/5.2/phpunit.xsd" location="$USER_HOME$/.PhpStorm2016.1/system/extResources/9263b0a3_phpunit.xsd" />
+  </component>
+</application>

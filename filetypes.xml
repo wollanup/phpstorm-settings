@@ -1,0 +1,53 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="scss" type="CSS" />
+      <mapping pattern="Dockerfile.unit" type="Dockerfile" />
+      <mapping pattern="Dockerfile.production" type="Dockerfile" />
+      <mapping pattern="Dockerfile.integration" type="Dockerfile" />
+      <mapping pattern="Dockerfile.development" type="Dockerfile" />
+      <mapping pattern="Dockerfile.ci" type="Dockerfile" />
+      <mapping ext="handlebars" type="HTML" />
+      <mapping ext="pdml" type="PHP" />
+      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE-MIT" type="PLAIN_TEXT" />
+      <mapping pattern=".env.example" type="PLAIN_TEXT" />
+      <mapping pattern="sshd_config" type="PLAIN_TEXT" />
+      <mapping pattern="etc/ssh/sshd_config" type="PLAIN_TEXT" />
+      <mapping pattern="CHANGELOG" type="PLAIN_TEXT" />
+      <mapping pattern=".gitignore.orig" type="PLAIN_TEXT" />
+      <mapping pattern="LICENCE" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
+      <mapping ext="ci" type="PLAIN_TEXT" />
+      <mapping ext="map" type="PLAIN_TEXT" />
+      <mapping ext="cache" type="PLAIN_TEXT" />
+      <mapping ext="integration" type="PLAIN_TEXT" />
+      <mapping ext="coffee" type="PLAIN_TEXT" />
+      <mapping ext="ods" type="PLAIN_TEXT" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
+      <mapping ext="lock" type="PLAIN_TEXT" />
+      <mapping ext="orig" type="PLAIN_TEXT" />
+      <mapping ext="css1" type="PLAIN_TEXT" />
+      <mapping ext="config" type="PLAIN_TEXT" />
+      <mapping ext="example" type="PLAIN_TEXT" />
+      <mapping ext="appcache" type="PLAIN_TEXT" />
+      <mapping ext="rej" type="PLAIN_TEXT" />
+      <mapping ext="jsm" type="PLAIN_TEXT" />
+      <mapping ext="testing" type="PLAIN_TEXT" />
+      <mapping ext="tmp" type="PLAIN_TEXT" />
+      <mapping ext="sublime-project" type="PLAIN_TEXT" />
+      <mapping ext="gitlab" type="PLAIN_TEXT" />
+      <mapping ext="unit" type="PLAIN_TEXT" />
+      <mapping ext="vmoptions" type="PLAIN_TEXT" />
+      <mapping ext="sublime-workspace" type="PLAIN_TEXT" />
+      <mapping ext="45511035" type="PLAIN_TEXT" />
+      <mapping ext="xlf" type="XML" />
+      <mapping pattern="*.yml.dist" type="YAML" />
+      <mapping pattern="*.yaml.dist" type="YAML" />
+      <mapping ext="partial" type="Handlebars/Mustache" />
+      <mapping pattern="handlebars" type="Handlebars/Mustache" />
+    </extensionMap>
+  </component>
+</application>
