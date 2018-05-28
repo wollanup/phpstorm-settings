@@ -31,6 +31,12 @@
     <option name="WHILE_BRACE_FORCE" value="3" />
     <option name="FOR_BRACE_FORCE" value="3" />
     <arrangement>
+      <groups>
+        <group>
+          <type>GETTERS_AND_SETTERS</type>
+          <order>KEEP</order>
+        </group>
+      </groups>
       <rules>
         <section>
           <rule>
@@ -44,7 +50,7 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <modifiers />
+                <visibility />
               </AND>
             </match>
             <order>BY_NAME</order>
@@ -62,7 +68,7 @@
             <match>
               <AND>
                 <METHOD>true</METHOD>
-                <modifiers />
+                <visibility />
               </AND>
             </match>
             <order>BY_NAME</order>
