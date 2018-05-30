@@ -1,0 +1,9 @@
+<toolSet name="Documentation">
+  <tool name="JSDoc" description="Generate JS documentation" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$/node_modules/.bin/jsdoc" />
+      <option name="PARAMETERS" value="-c $FilePrompt$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
