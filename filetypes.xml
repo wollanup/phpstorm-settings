@@ -7,10 +7,8 @@
       <mapping pattern="Dockerfile.integration" type="Dockerfile" />
       <mapping pattern="Dockerfile.development" type="Dockerfile" />
       <mapping pattern="Dockerfile.ci" type="Dockerfile" />
-      <mapping ext="handlebars" type="HTML" />
       <mapping pattern="handlebars" type="Handlebars/Mustache" />
       <mapping ext="partial" type="Handlebars/Mustache" />
-      <removed_mapping ext="handlebars" type="Handlebars/Mustache" />
       <mapping ext="pdml" type="PHP" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
@@ -23,8 +21,8 @@
       <mapping pattern="LICENCE" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
-      <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="ci" type="PLAIN_TEXT" />
+      <mapping ext="map" type="PLAIN_TEXT" />
       <mapping ext="cache" type="PLAIN_TEXT" />
       <mapping ext="integration" type="PLAIN_TEXT" />
       <mapping ext="coffee" type="PLAIN_TEXT" />
@@ -33,7 +31,6 @@
       <mapping ext="lock" type="PLAIN_TEXT" />
       <mapping ext="orig" type="PLAIN_TEXT" />
       <mapping ext="css1" type="PLAIN_TEXT" />
-      <mapping ext="map" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="appcache" type="PLAIN_TEXT" />
