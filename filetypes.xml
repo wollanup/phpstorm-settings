@@ -38,6 +38,7 @@
       <mapping ext="jsm" type="PLAIN_TEXT" />
       <mapping ext="testing" type="PLAIN_TEXT" />
       <mapping ext="tmp" type="PLAIN_TEXT" />
+      <mapping ext="jd" type="PLAIN_TEXT" />
       <mapping ext="sublime-project" type="PLAIN_TEXT" />
       <mapping ext="gitlab" type="PLAIN_TEXT" />
       <mapping ext="unit" type="PLAIN_TEXT" />
